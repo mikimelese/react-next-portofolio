@@ -1,5 +1,4 @@
-/* this is the style for the container inside the app.js */
-/* you can remove it and just use the card CSS */
+
 .container {
   position: relative;
   width: 100%;
@@ -87,19 +86,11 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* .sneaaker-img {
-  position: absolute;
-  width: 60%;
-  height: auto;
-  transition: all 0.2s ease;
-} */
+
 .title{
  tab-size: 5;
 }
-/* .card p {
-  width: 100%;
-  color: rgb(220, 220, 220);
-} */
+
 .sizes-box {
   width: 100%;
   height: auto;

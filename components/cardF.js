@@ -1,4 +1,4 @@
-// import code from "../../public/code.png";
+
 import Image from "next/image";
 
 export default function CardF(props) {
@@ -16,6 +16,6 @@ export default function CardF(props) {
       <p className="text-cyan-500 py-1">{props.pro.p3}</p>
       <p className="text-cyan-500 py-1">{props.pro.p4}</p>
 
-      {/* <p className="text-gray-800 py-1">{props.pro.p5}</p> */}
+
     </div>)
 }

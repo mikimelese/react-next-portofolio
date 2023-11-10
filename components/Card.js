@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
-// import "../../public/static/Card.css";
+
 
 export default function Card(tt) {
   const [xRotation, setXRotation] = useState(0);
   const [yRotation, setYRotation] = useState(0);
   const [qq, setQq] = useState(null);
-  // const cardRef = useRef(null);
+
   const imgRef = useRef(null);
   const shadowRef = useRef(null);
   const titleRef = useRef(null);
@@ -15,13 +15,7 @@ export default function Card(tt) {
   const purchaseRef = useRef(null);
 
 
-  // useEffect(() => {
-  //   if (cardRef.current) {
-  //     const { top } = cardRef.current.getBoundingClientRect();
-  //     // setOffsetTop(window.pageYOffset + top);
-  //     console.log(top)
-  //   }
-  // }, []);
+
 
   function handleMouseMove(event) {
     const card = tt.rr.refer.current;
@@ -70,9 +64,7 @@ export default function Card(tt) {
     const src = tt.rr.ref.current;
     if (!src) return
     src.scrollIntoView({ behavior: "smooth" });
-    // useEffect(() => {
-    //   src.current.scrollIntoView({ behavior: "smooth" })
-    // });
+
   };
   return (
     <div>
