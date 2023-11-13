@@ -75,14 +75,7 @@
 }
 /* .ww{
 } */
-.effect-scale {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  box-shadow: 0 0 0 rgba(51,71,91,0);
-  transform: perspective(100px) translateZ(0);
-  transition: var(--transition-duration) transform,var(--transition-duration) box-shadow;
-  will-change: transform;
-}
+
 .shadoww{
   position: absolute;
   top: 60px;
@@ -96,7 +89,7 @@
 .shadowb{
   /* transform: translate(20px, 40px) scale(1.2); */
   /* box-shadow: 15px 15px 15px rgba(51,71,91,0); */
-  /* transition: var(--transition-duration) transform,var(--transition-duration) box-shadow; */
+   /* transition: var(--transition-duration) transform,var(--transition-duration) box-shadow;  */
   /* will-change: transform; */
   /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.507); */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */

@@ -7,7 +7,7 @@ export default function CardF(props) {
   const [qq, setQq] = useState(null);
   function handleMouseEnter() {
     const card = props.pro.ref.current;
-    // card.style.transform = "tra";
+    card.style.transform = "scale(1.01)";
     setQq("shadowb")
   }
   function handleMouseLeave() {
@@ -16,7 +16,7 @@ export default function CardF(props) {
     setQq(null)
   }
   return (
-    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} ref={props.pro.ref} className={`text-center ${qq} hover:scale-125 shadow-lg p-10 bg-cyan-950 rounded-xl my-10 dark:bg-sky-950 flex-1`}>
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} ref={props.pro.ref} className={`text-center ${qq} transition-all duration-300 shadow-lg p-10 bg-cyan-950 rounded-xl my-10 dark:bg-sky-950 flex-1`}>
       <Image src={props.pro.image} alt='this is image' width='100' />
       <h3 className="text-lg font-medium pt-8 pb-2 ">
         {props.pro.h3}
