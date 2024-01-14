@@ -160,9 +160,9 @@ export default function Home() {
 
   return (
 
-    <div className={`${darkMode ? "dark" : ""} min-w-full overflow-x-hidden`}>
+    <div className={`${darkMode ? "dark" : ""} `}>
 
-      <main className="px-3 sm:px-10 dark:bg-gray-900 bg-white ">
+      <main className="px-3 sm:px-10 dark:bg-gray-900 bg-white overflow-y-hidden overflow-x-hidden">
         <section className=" min-h-screen ">
           <nav className="py-10 sm:mb-12 mb-4 flex justify-between gap-5 dark:text-white">
             <h1 className="font-A_Space_Heavy_Demo text-xl  text-gray-800 dark:text-white">mikimelese</h1>
@@ -224,13 +224,12 @@ export default function Home() {
           </div>
           <div className='flex-initial w-96'></div>
         </section>
-        <section className='px-4 sm:px-60'>
+        <section className='px-4 sm:px-60 mb-0'>
           {prop.map((pp, ind) => (
             <CardF key={ind} pro={pp} />
           ))}
         </section>
       </main>
-
     </div >
 
   )
