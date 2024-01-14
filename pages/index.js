@@ -164,7 +164,7 @@ export default function Home() {
 
       <main className="px-3 sm:px-10 dark:bg-gray-900 bg-white ">
         <section className=" min-h-screen ">
-          <nav className="py-10 mb-12 flex justify-between gap-5 dark:text-white">
+          <nav className="py-10 sm:mb-12 mb-4 flex justify-between gap-5 dark:text-white">
             <h1 className="font-A_Space_Heavy_Demo text-xl  text-gray-800 dark:text-white">mikimelese</h1>
             <ul className="flex items-center">
               <li>
@@ -181,7 +181,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center  sm:p-10 py-10">
+          <div className="text-center  sm:p-10 py-2 sm:py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Mikyas Melese
             </h2>
@@ -202,7 +202,7 @@ export default function Home() {
               </Link>
 
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full scale-75 sm:transform-none w-80 h-80 relative overflow-hidden mt-20 ">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full scale-75 sm:transform-none w-80 h-80 relative overflow-hidden mt-6 sm:mt-20 ">
 
               <Image
                 src={miki}
@@ -224,7 +224,7 @@ export default function Home() {
           </div>
           <div className='flex-initial w-96'></div>
         </section>
-        <section className='px-60'>
+        <section className='px-4 sm:px-60'>
           {prop.map((pp, ind) => (
             <CardF key={ind} pro={pp} />
           ))}

@@ -7,6 +7,6 @@ export const getDarkModePreference = () => {
     if (typeof window !== 'undefined') {
         darkMode = window.localStorage.getItem("darkMode");
     }
-    console.log(darkMode)
+    
     return darkMode ? JSON.parse(localStorage.getItem(darkMode)) : false;
 };
