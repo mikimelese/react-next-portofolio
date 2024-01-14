@@ -8,7 +8,7 @@ import {
   AiFillYoutube
 } from 'react-icons/ai';
 import { useEffect, useState, useRef, useContext } from "react";
-import miki from '../public/images/avatarmaker.svg'
+import miki from '../public/images/myicon.svg'
 import reactt from '../public/images/reactt.png'
 import nodet from '../public/images/nodet.svg'
 import sveltet from '../public/images/svelte-logo-square.png'
