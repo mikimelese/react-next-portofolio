@@ -164,7 +164,7 @@ export default function Home() {
 
       <main className="px-10 dark:bg-gray-900 bg-white ">
         <section className=" min-h-screen ">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between gap-5 dark:text-white">
             <h1 className="font-A_Space_Heavy_Demo text-xl  text-gray-800 dark:text-white">mikimelese</h1>
             <ul className="flex items-center">
               <li>
@@ -202,7 +202,7 @@ export default function Home() {
               </Link>
 
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 ">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full scale-75 sm:transform-none w-80 h-80 relative overflow-hidden mt-20 ">
 
               <Image
                 src={miki}
