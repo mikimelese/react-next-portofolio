@@ -20,9 +20,9 @@ export default function Resume() {
     const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
     const pro = [phone_1, phone_2, phone_3, phone_4];
     const pro2 = [computer_1, computer_2, computer_3, computer_4, computer_5];
-    return <div className={darkMode ? "dark" : ""}>
+    return <div className={`${darkMode ? "dark" : ""} min-w-full`}>
 
-        <main className="px-10 dark:bg-gray-900 bg-white lg:px-20">
+        <main className="px-10 dark:bg-gray-900 bg-white">
             <section className=" min-h-screen ">
                 <nav className="py-10 mb-12 flex justify-between dark:text-white">
                     <h1 className="font-A_Space_Heavy_Demo text-xl  text-gray-800 dark:text-white">mikimelese</h1>

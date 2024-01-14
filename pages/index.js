@@ -160,9 +160,9 @@ export default function Home() {
 
   return (
 
-    <div className={darkMode ? "dark" : ""}>
+    <div className={`${darkMode ? "dark" : ""} min-w-full overflow-x-hidden`}>
 
-      <main className="px-10 dark:bg-gray-900 bg-white lg:px-20">
+      <main className="px-10 dark:bg-gray-900 bg-white ">
         <section className=" min-h-screen ">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-A_Space_Heavy_Demo text-xl  text-gray-800 dark:text-white">mikimelese</h1>
