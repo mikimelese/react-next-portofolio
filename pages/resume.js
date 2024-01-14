@@ -22,9 +22,9 @@ export default function Resume() {
     const pro2 = [computer_1, computer_2, computer_3, computer_4, computer_5];
     return <div className={`${darkMode ? "dark" : ""} min-w-full`}>
 
-        <main className="px-10 dark:bg-gray-900 bg-white">
+        <main className="px-3 sm:px-10 dark:bg-gray-900 bg-white">
             <section className=" min-h-screen ">
-                <nav className="py-10 mb-12 flex justify-between dark:text-white">
+                <nav className="py-10 mb-12 gap-5 flex justify-between dark:text-white">
                     <h1 className="font-A_Space_Heavy_Demo text-xl  text-gray-800 dark:text-white">mikimelese</h1>
                     <ul className="flex items-center">
                         <li>
@@ -35,7 +35,7 @@ export default function Resume() {
                         </li>
                         <li>
                             <Link href="/"
-                                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-2 sm:px-4 py-2 border-none rounded-md ml-4 sm:ml-8">
                                 Home
                             </Link>
                         </li>
