@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Head from "next/head";
 import Link from "next/link";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { FaXTwitter } from "react-icons/fa6";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -160,13 +161,13 @@ export default function Home() {
 
   return (
 
-    <div className={`${darkMode ? "dark" : ""} `}>
+    <div className={`${darkMode ? "dark" : ""} ` }>
 
-      <main className="px-3 sm:px-10 dark:bg-gray-900 bg-white overflow-y-hidden overflow-x-hidden">
+      <main className="px-3 sm:px-10 dark:bg-gray-900 bg-white overflow-y-hidden overflow-x-hidden ">
         <section className=" min-h-screen ">
-          <nav className="py-10 sm:mb-12 mb-4 flex justify-between gap-5 dark:text-white">
+          <nav className="py-10 sm:mb-1 flex justify-between gap-5 dark:text-white">
             <h1 className="font-A_Space_Heavy_Demo text-xl  text-gray-800 dark:text-white">mikimelese</h1>
-            <ul className="flex items-center">
+            <ul className="flex items-center scale-[0.8]">
               <li>
                 <BsFillMoonStarsFill
                   onClick={toggleDarkMode}
@@ -181,28 +182,28 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center  sm:p-10 py-2 sm:py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+          <div className="text-center  sm:p-10 py-2 sm:py-10 ">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl scale-[0.8]">
               Mikyas Melese
             </h2>
-            <h3 className="text-2xl py-2  text-gray-800 dark:text-white md:text-3xl">
+            <h3 className="text-2xl py-2  text-gray-800 dark:text-white md:text-3xl scale-[0.8]">
               Developer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl scale-[0.8]">
               Freelancer providing services for programming and design content
               needs. Join me down below and let's get cracking!
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <Link href="https://www.twitter.com" passHref target="_blank" rel="noopener noreferrer" >
-                <AiFillTwitterCircle />
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 scale-[0.8]">
+              <Link href="https://www.twitter.com/mikimelese" passHref target="_blank" rel="noopener noreferrer" >
+                <FaXTwitter />
               </Link>
 
-              <Link href="https://www.linkedin.com" passHref target="_blank" rel="noopener noreferrer" >
+              <Link href="https://www.linkedin.com/in/mikimelese" passHref target="_blank" rel="noopener noreferrer" >
                 <AiFillLinkedin />
               </Link>
 
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full scale-75 sm:transform-none w-80 h-80 relative overflow-hidden mt-6 sm:mt-20 ">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full scale-75  w-80 h-80 relative overflow-hidden sm:mt-1 ">
 
               <Image
                 src={miki}
@@ -215,7 +216,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='flex'>
+        <section className='flex '>
           <div className='flex-initial w-96'></div>
           <div className='flex gap-10  justify-center flex-row flex-wrap '>
             {yg.map((yyy, index) => (
